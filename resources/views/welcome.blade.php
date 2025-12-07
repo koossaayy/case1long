@@ -5,110 +5,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>{{ __('Document') }}</title>
 </head>
 
 <body>
-    <p>Welcome to the dashboard</p>
-    <p>Sign in to your account</p>
-    <p>Create a new account</p>
-    <p>Forgot your password?</p>
-    <p>Reset your password</p>
-    <p>Update profile</p>
-    <p>Change password</p>
-    <p>Save changes</p>
-    <p>Cancel and go back</p>
-    <p>Delete this item</p>
-    <p>Are you sure you want to continue?</p>
-    <p>Yes, continue</p>
-    <p>No, go back</p>
-    <p>Loading data, please wait</p>
-    <p>No results found</p>
-    <p>Try again later</p>
-    <p>Connection failed</p>
-    <p>Server error occurred</p>
-    <p>Access denied</p>
-    <p>Permission granted</p>
-    <p>New message received</p>
-    <p>Mark as read</p>
-    <p>Mark as unread</p>
-    <p>Delete all messages</p>
-    <p>Clear notifications</p>
-    <p>View all notifications</p>
-    <p>Search for items</p>
-    <p>Filter results</p>
-    <p>Sort by name</p>
-    <p>Sort by date</p>
-    <p>Sort by relevance</p>
-    <p>Apply filters</p>
-    <p>Remove filters</p>
-    <p>Refresh page</p>
-    <p>Download file</p>
-    <p>Upload completed</p>
-    <p>Upload failed</p>
-    <p>File not supported</p>
-    <p>Maximum file size exceeded</p>
-    <p>Profile updated successfully</p>
-    <p>Settings saved successfully</p>
-    <p>Changes were not saved</p>
-    <p>Please fill in all required fields</p>
-    <p>Invalid email address</p>
-    <p>Password too short</p>
-    <p>Passwords do not match</p>
-    <p>Session expired</p>
-    <p>Login successful</p>
-    <p>Logout successful</p>
-    <p>Remember me</p>
-    <p>Don’t have an account?</p>
-    <p>Already have an account?</p>
-    <p>Contact support</p>
-    <p>Help center</p>
-    <p>Privacy policy</p>
-    <p>Terms and conditions</p>
-    <p>Accept terms</p>
-    <p>Decline</p>
-    <p>Continue</p>
-    <p>Go to homepage</p>
-    <p>Back to dashboard</p>
-    <p>View details</p>
-    <p>Edit item</p>
-    <p>Duplicate item</p>
-    <p>Archive item</p>
-    <p>Restore item</p>
-    <p>Item archived</p>
-    <p>Item restored</p>
-    <p>No data available</p>
-    <p>Data loaded successfully</p>
-    <p>Sync in progress</p>
-    <p>Sync completed</p>
-    <p>Today</p>
-    <p>Yesterday</p>
-    <p>Last week</p>
-    <p>Last month</p>
-    <p>Select date</p>
-    <p>Select time</p>
-    <p>Start date</p>
-    <p>End date</p>
-    <p>Choose an option</p>
-    <p>Please wait</p>
-    <p>Processing request</p>
-    <p>Request completed</p>
-    <p>Request failed</p>
-    <p>Try again</p>
-    <p>Submit form</p>
-    <p>Form submitted</p>
-    <p>Form submission failed</p>
-    <p>Add new record</p>
-    <p>Remove record</p>
-    <p>Total results</p>
-    <p>Showing first 10 results</p>
-    <p>Load more</p>
-    <p>End of list</p>
-    <p>Welcome back</p>
-    <p>Goodbye</p>
-    <p>YES</p>
-    <p>NO</p>
-    <p>Confirmation</p>
+    <p>{{ __('Welcome to the dashboard') }}</p>
+    <p>{{ __('Sign in to your account') }}</p>
+    <p>{{ __('Create a new account') }}</p>
+    <p>{{ __('Forgot your password?') }}</p>
+    <p>{{ __('Reset your password') }}</p>
+    <p>{{ __('Update profile') }}</p>
+    <p>{{ __('Change password') }}</p>
+    <p>{{ __('Save changes') }}</p>
+    <p>{{ __('Cancel and go back') }}</p>
+    <p>{{ __('Delete this item') }}</p>
+    <p>{{ __('Are you sure you want to continue?') }}</p>
+    <p>{{ __('Yes, continue') }}</p>
+    <p>{{ __('No, go back') }}</p>
+    <p>{{ __('Loading data, please wait') }}</p>
+    <p>{{ __('No results found') }}</p>
+    <p>{{ __('Try again later') }}</p>
+    <p>{{ __('Connection failed') }}</p>
+    <p>{{ __('Server error occurred') }}</p>
+    <p>{{ __('Access denied') }}</p>
+    <p>{{ __('Permission granted') }}</p>
+    <p>{{ __('New message received') }}</p>
+    <p>{{ __('Mark as read') }}</p>
+    <p>{{ __('Mark as unread') }}</p>
+    <p>{{ __('Delete all messages') }}</p>
+    <p>{{ __('Clear notifications') }}</p>
+    <p>{{ __('View all notifications') }}</p>
+    <p>{{ __('Search for items') }}</p>
+    <p>{{ __('Filter results') }}</p>
+    <p>{{ __('Sort by name') }}</p>
+    <p>{{ __('Sort by date') }}</p>
+    <p>{{ __('Sort by relevance') }}</p>
+    <p>{{ __('Apply filters') }}</p>
+    <p>{{ __('Remove filters') }}</p>
+    <p>{{ __('Refresh page') }}</p>
+    <p>{{ __('Download file') }}</p>
+    <p>{{ __('Upload completed') }}</p>
+    <p>{{ __('Upload failed') }}</p>
+    <p>{{ __('File not supported') }}</p>
+    <p>{{ __('Maximum file size exceeded') }}</p>
+    <p>{{ __('Profile updated successfully') }}</p>
+    <p>{{ __('Settings saved successfully') }}</p>
+    <p>{{ __('Changes were not saved') }}</p>
+    <p>{{ __('Please fill in all required fields') }}</p>
+    <p>{{ __('Invalid email address') }}</p>
+    <p>{{ __('Password too short') }}</p>
+    <p>{{ __('Passwords do not match') }}</p>
+    <p>{{ __('Session expired') }}</p>
+    <p>{{ __('Login successful') }}</p>
+    <p>{{ __('Logout successful') }}</p>
+    <p>{{ __('Remember me') }}</p>
+    <p>{{ __('Don’t have an account?') }}</p>
+    <p>{{ __('Already have an account?') }}</p>
+    <p>{{ __('Contact support') }}</p>
+    <p>{{ __('Help center') }}</p>
+    <p>{{ __('Privacy policy') }}</p>
+    <p>{{ __('Terms and conditions') }}</p>
+    <p>{{ __('Accept terms') }}</p>
+    <p>{{ __('Decline') }}</p>
+    <p>{{ __('Continue') }}</p>
+    <p>{{ __('Go to homepage') }}</p>
+    <p>{{ __('Back to dashboard') }}</p>
+    <p>{{ __('View details') }}</p>
+    <p>{{ __('Edit item') }}</p>
+    <p>{{ __('Duplicate item') }}</p>
+    <p>{{ __('Archive item') }}</p>
+    <p>{{ __('Restore item') }}</p>
+    <p>{{ __('Item archived') }}</p>
+    <p>{{ __('Item restored') }}</p>
+    <p>{{ __('No data available') }}</p>
+    <p>{{ __('Data loaded successfully') }}</p>
+    <p>{{ __('Sync in progress') }}</p>
+    <p>{{ __('Sync completed') }}</p>
+    <p>{{ __('Today') }}</p>
+    <p>{{ __('Yesterday') }}</p>
+    <p>{{ __('Last week') }}</p>
+    <p>{{ __('Last month') }}</p>
+    <p>{{ __('Select date') }}</p>
+    <p>{{ __('Select time') }}</p>
+    <p>{{ __('Start date') }}</p>
+    <p>{{ __('End date') }}</p>
+    <p>{{ __('Choose an option') }}</p>
+    <p>{{ __('Please wait') }}</p>
+    <p>{{ __('Processing request') }}</p>
+    <p>{{ __('Request completed') }}</p>
+    <p>{{ __('Request failed') }}</p>
+    <p>{{ __('Try again') }}</p>
+    <p>{{ __('Submit form') }}</p>
+    <p>{{ __('Form submitted') }}</p>
+    <p>{{ __('Form submission failed') }}</p>
+    <p>{{ __('Add new record') }}</p>
+    <p>{{ __('Remove record') }}</p>
+    <p>{{ __('Total results') }}</p>
+    <p>{{ __('Showing first 10 results') }}</p>
+    <p>{{ __('Load more') }}</p>
+    <p>{{ __('End of list') }}</p>
+    <p>{{ __('Welcome back') }}</p>
+    <p>{{ __('Goodbye') }}</p>
+    <p>{{ __('YES') }}</p>
+    <p>{{ __('NO') }}</p>
+    <p>{{ __('Confirmation') }}</p>
 </body>
 
 </html>
